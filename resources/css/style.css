@@ -33,12 +33,12 @@ header nav {
 /* Body */
 html {
   font-size: 18px;
-  line-height: 1.4;
 }
 body {
   font-family: Helvetica;
   display: block;
   margin: 0;
+  line-height: 1.4;
 }
 .topcon {
   height: 30rem;
@@ -70,7 +70,6 @@ body {
   font-weight: bold;
 }
 .middle {
-  width: 960px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -82,13 +81,12 @@ body {
   align-items: center;
   justify-content: flex-start;
   margin-top: 3rem;
+  margin-bottom: 3rem;
   height: 8rem;
   width: 4rem;
 }
-.service.paper {
+.service.ruler {
   margin-right: 6rem;
-}
-.service.truck {
   margin-left: 6rem;
 }
 .paper img {
@@ -106,4 +104,47 @@ body {
 }
 .truck img {
   margin-bottom: 2.2rem;
+}
+.bottom {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.philosophy, .appointments {
+  width: 35%
+}
+.philosophy h2, .appointments h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+}
+.philosophy p {
+  margin-right: 5%;
+  margin-bottom: 5rem;
+}
+footer {
+  background-color: azure;
+}
+footer img {
+  height: 1.5rem;
+  margin: 4rem 1rem 4rem 4rem;
+}
+.footer {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media only screen and (max-width: 1536px) {
+
+}
+@media only screen and (max-width: 640px) {
+  
 }
