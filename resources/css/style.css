@@ -1,0 +1,109 @@
+/* Header */
+header {
+  width: 960px;
+  color: white;
+  font-size: 1rem;
+  margin: 0 auto;
+  background-color: cadetblue;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.logo img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+header nav {
+  display: inline-block;
+}
+.menu a, .phonemenu a {
+  padding-right: 2rem;
+  text-decoration: none;
+  color: white;
+}
+.phonemenu {
+  display: none;
+}
+/* Body */
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+body {
+  font-family: Helvetica;
+  display: block;
+  margin: 0;
+}
+.topcon {
+  height: 30rem;
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 1rem;
+}
+.top {
+  width: 1032px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: flex-end;
+}
+.dontlooksee {
+  display: flex;
+  height: 2rem;
+  margin: 10rem 0 15rem 0;
+  padding: 1.5rem 5rem;
+  width: 24rem;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.dontlooksee h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+.middle {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 3rem;
+  height: 8rem;
+  width: 4rem;
+}
+.service.paper {
+  margin-right: 6rem;
+}
+.service.truck {
+  margin-left: 6rem;
+}
+.paper img {
+  width: 3.5rem;
+  margin-bottom: 1rem;
+}
+.ruler img, .truck img {
+  width: 5rem;
+}
+.service span {
+  text-align: center;
+}
+.ruler img {
+  margin-bottom: 2.7rem;
+}
+.truck img {
+  margin-bottom: 2.2rem;
+}
