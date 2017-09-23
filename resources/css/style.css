@@ -161,6 +161,9 @@ footer img {
   }
 }
 @media only screen and (max-width: 470px) {
+  body {
+    font-size: 0.77rem;
+  }
   .logo span {
     display: none;
   }
@@ -175,14 +178,63 @@ footer img {
     background-position: 20%;
   }
   .top {
-
+    width: 100%;
+    justify-content: center;
   }
   .dontlooksee {
-    margin-top: 9rem;
+    height: 1rem;
     width: 100%;
+    margin: 9rem 0 5rem 0;
+    padding: 1rem 0;
   }
   .dontlooksee h1 {
     font-size: 1rem;
-    padding: 1rem 0;
+  }
+  .middle {
+    flex-direction: column;
+    align-items: center;
+    margin: 3.77rem 0;
+  }
+  .service {
+    margin-bottom: 0;
+    width: 5rem;
+  }
+  .paper img, .ruler img, .truck img {
+    margin-bottom: 1rem;
+  }
+  .service.truck, .service.ruler {
+    margin-top: 1.54rem;
+  }
+  .bottom {
+    width: 470px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .philosophy, .appointments {
+    width: 100%;
+  }
+  .philosophy h2, .appointments h2 {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+  .philosophy p {
+    margin-bottom: 4rem;
+  }
+  .appointments p {
+    margin-bottom: 5rem;
+  }
+  footer {
+    width: 470px;
+  }
+  footer img {
+    margin: 4rem 0;
+  }
+  footer span {
+    display: none;
+  }
+  .footer {
+    width: 470px;
+    justify-content: center;
   }
 }
