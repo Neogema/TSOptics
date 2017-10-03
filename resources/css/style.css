@@ -193,7 +193,6 @@ footer img {
   .middle {
     flex-direction: column;
     align-items: center;
-    margin: 3.77rem 0;
   }
   .service {
     margin-bottom: 0;
@@ -204,6 +203,10 @@ footer img {
   }
   .service.truck, .service.ruler {
     margin-top: 1.54rem;
+  }
+
+  .service.ruler {
+    height: 6rem;
   }
   .bottom {
     width: 470px;
